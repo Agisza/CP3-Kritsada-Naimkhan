@@ -24,9 +24,11 @@ if User_Name == "admin" and User_Pass == "1234" :
     else :
         tem_name ="Iphone Pro Max"
         Item_price = 45000
+
     print("You select :",item_name)
     print("Price : ",Item_price," Baht")
     Item_Qty = int(input("How many pieces : "))
+    
     print("price summary")
     print("You Buy : ",item_name," Qty : ",Item_Qty," Price : ",Item_Qty*Item_price)
 else :
