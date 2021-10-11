@@ -28,7 +28,6 @@ def menuSelect():
         menuSelect()
 
 def vatCalculator(totalPrice):
-    result = 0
     vat = 7
     result = totalPrice + (totalPrice * vat / 100)
     return result
