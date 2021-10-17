@@ -29,7 +29,7 @@ Van1 = Van()
 Van1.turnOnAirConditioner()
 Van1.color = "Black"
 
-Estatecar1 = Car()
+Estatecar1 = Estatecar()
 Estatecar1.turnOnAirConditioner()
 Estatecar1.color = "Pink"
 
