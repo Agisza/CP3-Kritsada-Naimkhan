@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from tkinter import messagebox
 
 
-
 # funtion แลกเงิน
 def convert_rate():
     if   currency_first_comb.get() == "" or currency_first_comb.get() == "" or value_entry.get() == "" :
